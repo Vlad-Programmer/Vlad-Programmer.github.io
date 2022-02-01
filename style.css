@@ -25,8 +25,9 @@ a {
 .block {
     margin: 0 auto;
     /* width: 1150px; */
-    height: 2550px;
-    background-color: #ffffff;
+    height: 1800px;
+    /* background-color:#04b4d3 */
+    
 }
 
 .bannerImg {
@@ -38,8 +39,54 @@ a {
 }
 
 .logoimg {
+    cursor: pointer;
     width: 500px;
     height: 140px;
+}
+
+.nazad {
+    margin-top: 1px;
+    margin-bottom: 35px;
+    
+}
+
+.infoNazad {
+    /* display: block; */
+    /* margin-top: 60px; */
+    
+    background-color: #ffffff;
+    color: #192B59;
+    border: 1px solid #080808;
+    font-size: 17px;
+    letter-spacing: 2.5px;
+    font-weight: 700;
+    padding: 13px 35px;
+    border-radius: 7px;
+    /* margin-right: 3px; */
+    outline: none;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 1);
+    transition: 0.3s;
+    cursor: pointer;
+    
+
+    
+    
+    
+
+}
+
+.infoNazad:hover {
+    background-color: #FFD145;
+    color: #192B59;
+    border: 1px solid #192B59;
+}
+
+.obolochka {
+    width: 1165px;
+    height: 1016px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1);
+    border-radius: 11px;
 }
 
 .tovari {
@@ -53,7 +100,8 @@ a {
   /* height: 100%; */
     width: 1150px;
     height: 580px;
-    background-color: #ffffff;
+    /* background-color: #39fc69; */
+
     /* margin-top: 15px;
     margin-left: 1px;
     margin-right: 1px; */
@@ -62,10 +110,10 @@ a {
 }
 
 .tovar1 {
-    width: 360px;
+    width: 557px;
     height: 575px;
     background-color: #ffffff;
-    box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1);
+    /* box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1); */
     border-radius: 11px;
 
     padding-top: 21px;
@@ -73,27 +121,91 @@ a {
     
 }
 
+.nazvTovara {
+    font-size: 28px;
+    color: #1e1f2c;
+}
+
+.kartin1 {
+    cursor: pointer;
+}
+
+.kartin2 {
+    cursor: pointer;
+}
+
+.kartin3 {
+    cursor: pointer;
+}
+
+.kartin4 {
+    cursor: pointer;
+}
+
+.kartin5 {
+    cursor: pointer;
+}
+
+.vlevo {
+    margin-right: 35px;
+    cursor: pointer;
+}
+
+.vpravo {
+    margin-left: 35px;
+    cursor: pointer;
+    
+}
+
+.svet {
+    filter: brightness(200%);
+}
+
+
 .tovar2 {
-    width: 360px;
+    width: 557px;
     height: 575px;
     background-color: #ffffff;
-    box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1);
+    /* box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1); */
     border-radius: 11px;
     padding-top: 21px;
 
     margin-top: 10px;
 }
 
-.tovar3 {
-    width: 360px;
-    height: 575px;
+.tochnoeOpisanie {
+    margin-top: 159px;
+}
+
+.videoObzor {
+    margin-bottom: 24px;
+    font-size: 25px;
+    color: #192b59;
+}
+
+.video {
+    width: 557px;
+    height: 394px;
     background-color: #ffffff;
-    box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1);
+    /* box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1); */
+    border-radius: 11px;
+
+    padding-top: 21px;
+    margin-top: 10px;
+    
+}
+
+.opisanie {
+    width: 557px;
+    height: 394px;
+    background-color: #ffffff;
+    /* box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1); */
     border-radius: 11px;
     padding-top: 21px;
 
     margin-top: 10px;
 }
+
 
 
 .zagolovok {
@@ -148,14 +260,22 @@ a {
 .textMesto {
     margin: 0 auto;
     height: 57px;
+    text-align: left;
+}
+
+.textOpisanie {
+    margin-top: 40px;
+    margin-left: 20px;
 }
 
 .kursor {
     cursor: pointer;
+    width: 340px;
 }
 
 .cena {
-    margin-top: 5px;
+    margin-top: 34px;
+    margin-bottom: 34px;
     font-size: 25px;
     color: #192b59;
 }
@@ -163,6 +283,8 @@ a {
 .info {
     /* display: block; */
     /* margin-top: 60px; */
+
+    
     
     background-color: #d42b6e;
     color: #fff;
@@ -177,6 +299,10 @@ a {
     box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 1);
     transition: 0.3s;
     cursor: pointer;
+
+/* ===================== блик ===== */
+    position: relative; 
+    overflow-x: hidden;   
 
 }
 
@@ -218,8 +344,28 @@ a {
     display: flex;
   flex-direction: column;
   margin-top: 10px;
-  margin-left: 74px;
+  margin-left: 166px;
   width: 208px;
+}
+
+.tovariVtor {
+    display: flex;
+  /* justify-content: space-between; */
+  /* justify-content: center; */
+
+  justify-content: space-around;
+  /* flex-direction: column; */
+  
+  /* height: 100%; */
+    width: 1150px;
+    height: 580px;
+    /* background-color: #39fc69; */
+
+    /* margin-top: 15px;
+    margin-left: 1px;
+    margin-right: 1px; */
+    margin: 0 auto;
+    margin-top: 10px;
 }
 
 
@@ -404,8 +550,15 @@ a {
     .block {
         margin: 0 auto;
         width: 390px;
-        height: 4000px;
+        height: 2973px;
         background-color: #ffffff;
+    }
+
+    .obolochka {
+        width: 390px;
+        height: 1816px;
+        /* background:#04b4d3 */
+        box-shadow: 0px 0px 0px 0px rgb(255, 255, 255);
     }
 
     .logoimg {
@@ -429,41 +582,81 @@ a {
       /* justify-content: space-around; */
       /* height: 100%; */
         width: 390px;
-        height: 1819px;
+        height: 960px;
         background-color: #ffffff;
+        
         /* margin-top: 15px; */
         /* margin-left: 1px;
         margin-right: 1px */
+    }
+
+    .tovariVtor {
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 0px;
+
+        /* justify-content: center; */
+
+      /* justify-content: space-between; */
+      /* justify-content: center; */
+      /* justify-content: space-around; */
+      /* height: 100%; */
+        width: 390px;
+        height: 892px;
+        /* background-color: #d9f010; */
     }
 
     .tovar1 {
         width: 390px;
         height: 590px;
         background-color: #ffffff;
-        box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1);
+        /* box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1); */
         border-radius: 11px;
+        box-shadow: 0px 0px 0px 0px rgb(255, 255, 255);
     
-        padding-top: 21px;
+        padding-top: 21px;        
+    }
+
+    .nazvTovara {
+        text-align: center;
         
     }
+
+    .videoObzor {
+        margin-top: 15px;
+    }
+
+    .video {
+        width: 390px;
+        height: 219px;
+    }
+
+    .videoPro {
+        width: 380px;
+        height: 213px;
+    }
     
+    .opisanie {
+        width: 390px;
+        height: 422px;
+    }
+
     .tovar2 {
         width: 390px;
-        height: 590px;
+        height: 294px;
         background-color: #ffffff;
-        box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1);
+        box-shadow: 0px 0px 0px 0px rgb(255, 255, 255);
+        /* box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1); */
         border-radius: 11px;
         padding-top: 21px;
+    }
+
+    .tochnoeOpisanie {
+        margin-top: 0px;
     }
     
-    .tovar3 {
-        width: 390px;
-        height: 590px;
-        background-color: #ffffff;
-        box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1);
-        border-radius: 11px;
-        padding-top: 21px;
-    }
+    
 
     .knopki2 {
         margin-left: 84px;
@@ -483,6 +676,8 @@ a {
         /* height: 234px; */
 
         /* background-color:#d42b6e */
+
+        margin-top: 153px;
     
     }
 
@@ -553,8 +748,8 @@ a {
     .block {
         margin: 0 auto;
         width: 350px;
-        height: 4000px;
-        background-color: #d6075d;
+        height: 2854px;
+        /* background-color: #d6075d; */
     }
 
     .logoimg {
@@ -565,6 +760,12 @@ a {
     .bannerImg {
         width: 350px;
         height: 128px;
+    }
+
+    .obolochka {
+        width: 350px;
+        height: 1708px;
+        box-shadow: 0px 0px 0px 0px rgb(255, 255, 255);
     }
 
     .tovari {
@@ -578,18 +779,50 @@ a {
       /* justify-content: space-around; */
       /* height: 100%; */
         width: 350px;
-        height: 1819px;
-        background-color: #3c9203;
+        height: 969px;
+        /* background-color: #3c9203; */
         /* margin-top: 15px; */
         /* margin-left: 1px;
         margin-right: 1px */
+    }
+
+    .tovariVtor {
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 0px;
+
+        /* justify-content: center; */
+
+      /* justify-content: space-between; */
+      /* justify-content: center; */
+      /* justify-content: space-around; */
+      /* height: 100%; */
+        width: 350px;
+        height: 780px;
+        /* background-color: #d9f010; */
+    }
+
+    .video {
+        width: 350px;
+        height: 327px;
+    }
+
+    .videoPro {
+        width: 350px;
+        height: 197px;
+    }
+
+    .opisanie {
+        width: 350px;
     }
 
     .tovar1 {
         width: 350px;
         height: 590px;
         background-color: #ffffff;
-        box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1);
+        box-shadow: 0px 0px 0px 0px rgb(255, 255, 255);
+        /* box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1); */
         border-radius: 11px;
     
         padding-top: 21px;
@@ -600,19 +833,13 @@ a {
         width: 350px;
         height: 590px;
         background-color: #ffffff;
-        box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1);
+        box-shadow: 0px 0px 0px 0px rgb(255, 255, 255);
+        /* box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1); */
         border-radius: 11px;
         padding-top: 21px;
     }
     
-    .tovar3 {
-        width: 350px;
-        height: 590px;
-        background-color: #ffffff;
-        box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1);
-        border-radius: 11px;
-        padding-top: 21px;
-    }
+    
 
     .knopki2 {
         margin-left: 69px;
@@ -698,7 +925,7 @@ a {
 
 
 /* для блика =========  */
-/* .info7 .flare {
+.info .flare {
     position: absolute;
     top: 0;
     height: 100%;
@@ -718,5 +945,5 @@ a {
     100% {
         left: 150%;
     }
-} */
+}
 /* ================================= */
