@@ -69,13 +69,10 @@ kartin5.addEventListener('click', () => {
 });
 
 logoimg.addEventListener('click', () => {    
-    document.location.href = "https://www.yandex.ru";
+    document.location.href = "https://www.zeeebra.ru";
 });
 
-
-
-
-
+// ======== тачи===========
 
 document.addEventListener('touchstart', handleTouchStart, false);        
 document.addEventListener('touchmove', handleTouchMove, false);
@@ -158,21 +155,3 @@ function handleTouchMove(evt) {
 
 
 
-/*function prolistVpe() {
-
-    for (slay.classList.contains('slider1')) {
-        slay.classList.toggle('slider2');
-        break;
-    }
-
-     if  (slay.classList.contains('slider2')) {
-        slay.classList.toggle('slider3');
-                
-    }
-    
-    /*if (slay.classList.contains('slider3')) {
-        slay.classList.add('slider1');
-        slay.classList.remove('slider2');
-    } 
-
-}*/
