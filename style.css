@@ -16,18 +16,10 @@ a {
     text-decoration: none;
 }
 
-/* .glob {
-    display: flex;
-    flex-direction: column;
-    
-} */
-
 .block {
     margin: 0 auto;
-    /* width: 1150px; */
-    height: 1800px;
-    /* background-color:#04b4d3 */
-    
+    height: 2550px;
+    background-color: #ffffff;
 }
 
 .bannerImg {
@@ -39,173 +31,49 @@ a {
 }
 
 .logoimg {
-    cursor: pointer;
     width: 500px;
     height: 140px;
 }
 
-.nazad {
-    margin-top: 1px;
-    margin-bottom: 35px;
-    
-}
-
-.infoNazad {
-    /* display: block; */
-    /* margin-top: 60px; */
-    
-    background-color: #ffffff;
-    color: #192B59;
-    border: 1px solid #080808;
-    font-size: 17px;
-    letter-spacing: 2.5px;
-    font-weight: 700;
-    padding: 13px 35px;
-    border-radius: 7px;
-    /* margin-right: 3px; */
-    outline: none;
-    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 1);
-    transition: 0.3s;
-    cursor: pointer;
-    
-
-    
-    
-    
-
-}
-
-.infoNazad:hover {
-    background-color: #FFD145;
-    color: #192B59;
-    border: 1px solid #192B59;
-}
-
-.obolochka {
-    width: 1165px;
-    height: 1016px;
-    margin: 0 auto;
-    box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1);
-    border-radius: 11px;
-}
-
 .tovari {
     display: flex;
-  /* justify-content: space-between; */
-  /* justify-content: center; */
-
-  justify-content: space-around;
-  /* flex-direction: column; */
-  
-  /* height: 100%; */
+    justify-content: space-around;
     width: 1150px;
     height: 580px;
-    /* background-color: #39fc69; */
-
-    /* margin-top: 15px;
-    margin-left: 1px;
-    margin-right: 1px; */
+    background-color: #ffffff;
     margin: 0 auto;
     margin-top: 10px;
 }
 
 .tovar1 {
-    width: 557px;
+    width: 360px;
     height: 575px;
     background-color: #ffffff;
-    /* box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1); */
+    box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1);
     border-radius: 11px;
-
     padding-top: 21px;
     margin-top: 10px;
-    
 }
-
-.nazvTovara {
-    font-size: 28px;
-    color: #1e1f2c;
-}
-
-.kartin1 {
-    cursor: pointer;
-}
-
-.kartin2 {
-    cursor: pointer;
-}
-
-.kartin3 {
-    cursor: pointer;
-}
-
-.kartin4 {
-    cursor: pointer;
-}
-
-.kartin5 {
-    cursor: pointer;
-}
-
-.vlevo {
-    margin-right: 35px;
-    cursor: pointer;
-}
-
-.vpravo {
-    margin-left: 35px;
-    cursor: pointer;
-    
-}
-
-.svet {
-    filter: brightness(200%);
-}
-
 
 .tovar2 {
-    width: 557px;
+    width: 360px;
     height: 575px;
     background-color: #ffffff;
-    /* box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1); */
+    box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1);
     border-radius: 11px;
     padding-top: 21px;
-
     margin-top: 10px;
 }
 
-.tochnoeOpisanie {
-    margin-top: 159px;
-}
-
-.videoObzor {
-    margin-bottom: 24px;
-    font-size: 25px;
-    color: #192b59;
-}
-
-.video {
-    width: 557px;
-    height: 394px;
+.tovar3 {
+    width: 360px;
+    height: 575px;
     background-color: #ffffff;
-    /* box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1); */
-    border-radius: 11px;
-
-    padding-top: 21px;
-    margin-top: 10px;
-    
-}
-
-.opisanie {
-    width: 557px;
-    height: 394px;
-    background-color: #ffffff;
-    /* box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1); */
+    box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1);
     border-radius: 11px;
     padding-top: 21px;
-
     margin-top: 10px;
 }
-
 
 
 .zagolovok {
@@ -216,76 +84,22 @@ a {
     color: #1e1f2c;
 }
 
-/* .kupit {
-    height: 50px;
-    width: 208px;
-    font-size: 18px;
-    margin: 17px auto;
-    background-color: #d42b6e;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, .3);
-    border-radius: 8px;
-    cursor: pointer;
-    transition: 0.2s linear;
-    color: white;
-}
-
-.kupit:hover {
-    background-color: #01e727;
-}
-
-.podrobnee {
-    height: 50px;
-    width: 208px;
-    font-size: 18px;
-    margin: 10px auto;
-    background-color: #008bf7;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, .3);
-    border-radius: 8px;
-    cursor: pointer;
-    transition: 0.2s linear;
-    color: white;
-}
-
-.podrobnee:hover {
-    background-color: #01e727;
-} */
-
-
-
-/* .knopki {
-    
-    margin-bottom: 10px;
-} */
-
 .textMesto {
     margin: 0 auto;
     height: 57px;
-    text-align: left;
-}
-
-.textOpisanie {
-    margin-top: 40px;
-    margin-left: 20px;
 }
 
 .kursor {
     cursor: pointer;
-    width: 340px;
 }
 
 .cena {
-    margin-top: 34px;
-    margin-bottom: 34px;
+    margin-top: 5px;
     font-size: 25px;
     color: #192b59;
 }
 
 .info {
-    /* display: block; */
-    /* margin-top: 60px; */
-
-    
-    
     background-color: #d42b6e;
     color: #fff;
     border: 1px solid #85621a;
@@ -294,16 +108,10 @@ a {
     font-weight: 700;
     padding: 13px 59px;
     border-radius: 7px;
-    /* margin-right: 3px; */
     outline: none;
     box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 1);
     transition: 0.3s;
     cursor: pointer;
-
-/* ===================== блик ===== */
-    position: relative; 
-    overflow-x: hidden;   
-
 }
 
 .info:hover {
@@ -312,11 +120,7 @@ a {
     border: 1px solid #192B59;
 }
 
-
 .info2 {
-    /* display: block; */
-    /* margin-top: 60px; */
-    
     background-color: #008bf7;
     color: #fff;
     border: 1px solid #85621a;
@@ -325,13 +129,11 @@ a {
     font-weight: 700;
     padding: 13px 35px;
     border-radius: 7px;
-    /* margin-right: 3px; */
     outline: none;
     box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 1);
     transition: 0.3s;
     cursor: pointer;
     margin-top: 21px;
-
 }
 
 .info2:hover {
@@ -342,62 +144,32 @@ a {
 
 .knopki2 {
     display: flex;
-  flex-direction: column;
-  margin-top: 10px;
-  margin-left: 166px;
-  width: 208px;
-}
-
-.tovariVtor {
-    display: flex;
-  /* justify-content: space-between; */
-  /* justify-content: center; */
-
-  justify-content: space-around;
-  /* flex-direction: column; */
-  
-  /* height: 100%; */
-    width: 1150px;
-    height: 580px;
-    /* background-color: #39fc69; */
-
-    /* margin-top: 15px;
-    margin-left: 1px;
-    margin-right: 1px; */
-    margin: 0 auto;
+    flex-direction: column;
     margin-top: 10px;
+    margin-left: 74px;
+    width: 208px;
 }
-
-
 
 .podval {
     display: flex;
-  flex-flow: row nowrap;
+    flex-flow: row nowrap;
     width: 100%;
     height: 355px;
-    /* height: 234px; */
-    background-color:#d42b6e;
-
+    background-color: #d42b6e;
     margin-top: 200px;
-
 }
 
 .podv1 {
     width: 33.3%;
-   
-    /* height: 234px;     */
     height: 355px;
-    /* border:1px solid rgb(143, 136, 141);    */
 }
 
 .podv2 {
     text-align: left;
     width: 33.3%;
-    
-    /* height: 234px;  */
-    height: 355px;   
-    border:1px solid rgb(143, 136, 141); 
-    color:rgb(255, 255, 255);
+    height: 355px;
+    border: 1px solid rgb(143, 136, 141);
+    color: rgb(255, 255, 255);
     font-size: 14px;
     letter-spacing: 1.5px;
     font-weight: 500;
@@ -406,11 +178,9 @@ a {
 .podv3 {
     text-align: left;
     width: 33.3%;
-    
-    /* height: 234px;   */
-    height: 355px;  
-    border:1px solid rgb(143, 136, 141); 
-    color:rgb(255, 255, 255);
+    height: 355px;
+    border: 1px solid rgb(143, 136, 141);
+    color: rgb(255, 255, 255);
     font-size: 14px;
     letter-spacing: 1.5px;
     font-weight: 500;
@@ -423,7 +193,7 @@ a {
 
 .kontakti2 {
     margin-left: 26%;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     font-size: 14px;
     letter-spacing: 1.5px;
     font-weight: 500;
@@ -439,9 +209,8 @@ a {
 }
 
 .voprosi2 {
-    
     margin-left: 10px;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     font-size: 18px;
     letter-spacing: 3.5px;
     font-weight: 500;
@@ -449,13 +218,13 @@ a {
 
 .podv1 {
     display: flex;
-  justify-content: space-evenly;
-  margin-top: 25px;
+    justify-content: space-evenly;
+    margin-top: 25px;
 }
 
 .otveti {
     color: #ffffff;
-    /* margin-left: 10px; */
+
 }
 
 .otsrup {
@@ -469,10 +238,8 @@ a {
 @media (max-width: 1140px) {
     .block {
         margin: 0 auto;
-        
         width: 790px;
-        height: 4000px;
-        background-color: #04b4d3;
+        height: 4000px;        
     }
 
     .logoimg {
@@ -488,12 +255,9 @@ a {
     .tovari {
         display: flex;
         flex-direction: column;
-
-        
         width: 390px;
-        height: 1819px;
-        background-color: #3c9203;
-        
+        height: 1819px;     
+
     }
 
     .tovar1 {
@@ -502,11 +266,9 @@ a {
         background-color: #ffffff;
         box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1);
         border-radius: 11px;
-    
         padding-top: 21px;
-        
     }
-    
+
     .tovar2 {
         width: 390px;
         height: 590px;
@@ -515,7 +277,7 @@ a {
         border-radius: 11px;
         padding-top: 21px;
     }
-    
+
     .tovar3 {
         width: 390px;
         height: 590px;
@@ -542,23 +304,12 @@ a {
     }
 }
 
-
-
-
-
 @media (max-width: 570px) {
     .block {
         margin: 0 auto;
         width: 390px;
-        height: 2973px;
+        height: 4000px;
         background-color: #ffffff;
-    }
-
-    .obolochka {
-        width: 390px;
-        height: 1816px;
-        /* background:#04b4d3 */
-        box-shadow: 0px 0px 0px 0px rgb(255, 255, 255);
     }
 
     .logoimg {
@@ -574,92 +325,40 @@ a {
     .tovari {
         display: flex;
         flex-direction: column;
-
-        /* justify-content: center; */
-
-      /* justify-content: space-between; */
-      /* justify-content: center; */
-      /* justify-content: space-around; */
-      /* height: 100%; */
         width: 390px;
-        height: 960px;
+        height: 1819px;
         background-color: #ffffff;
-        
-        /* margin-top: 15px; */
-        /* margin-left: 1px;
-        margin-right: 1px */
-    }
-
-    .tovariVtor {
-        display: flex;
-        flex-direction: column;
-
-        margin-top: 0px;
-
-        /* justify-content: center; */
-
-      /* justify-content: space-between; */
-      /* justify-content: center; */
-      /* justify-content: space-around; */
-      /* height: 100%; */
-        width: 390px;
-        height: 892px;
-        /* background-color: #d9f010; */
     }
 
     .tovar1 {
         width: 390px;
         height: 590px;
         background-color: #ffffff;
-        /* box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1); */
-        border-radius: 11px;
-        box-shadow: 0px 0px 0px 0px rgb(255, 255, 255);
-    
-        padding-top: 21px;        
-    }
-
-    .nazvTovara {
-        text-align: center;
-        
-    }
-
-    .videoObzor {
-        margin-top: 15px;
-    }
-
-    .video {
-        width: 390px;
-        height: 219px;
-    }
-
-    .videoPro {
-        width: 380px;
-        height: 213px;
-    }
-    
-    .opisanie {
-        width: 390px;
-        height: 422px;
-    }
-
-    .tovar2 {
-        width: 390px;
-        height: 294px;
-        background-color: #ffffff;
-        box-shadow: 0px 0px 0px 0px rgb(255, 255, 255);
-        /* box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1); */
+        box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1);
         border-radius: 11px;
         padding-top: 21px;
     }
 
-    .tochnoeOpisanie {
-        margin-top: 0px;
+    .tovar2 {
+        width: 390px;
+        height: 590px;
+        background-color: #ffffff;
+        box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1);
+        border-radius: 11px;
+        padding-top: 21px;
     }
-    
-    
+
+    .tovar3 {
+        width: 390px;
+        height: 590px;
+        background-color: #ffffff;
+        box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1);
+        border-radius: 11px;
+        padding-top: 21px;
+    }
 
     .knopki2 {
-        margin-left: 93px;
+        margin-left: 84px;
     }
 
     .povNastr {
@@ -668,56 +367,41 @@ a {
     }
 
     .podval {
-        /* display: flex;
-      flex-flow: row nowrap; */
-      display: block;
+        display: block;
         width: 100%;
         height: 319px;
-        /* height: 234px; */
-
-        /* background-color:#d42b6e */
-
-        margin-top: 153px;
-    
     }
 
     .podv1 {
         width: 100%;
-        /* height: 234px;     */
         height: 124px;
-        border:1px solid rgb(143, 136, 136);  
-        margin-top: 0px; 
-
-        background-color:#d42b6e
+        border: 1px solid rgb(143, 136, 136);
+        margin-top: 0px;
+        background-color: #d42b6e
     }
 
     .podv2 {
         text-align: left;
         width: 100%;
-        
-        /* height: 234px;  */
-        height: 402px;   
-        border:1px solid rgb(143, 136, 141); 
-        color:rgb(255, 255, 255);
+        height: 402px;
+        border: 1px solid rgb(143, 136, 141);
+        color: rgb(255, 255, 255);
         font-size: 14px;
         letter-spacing: 1.5px;
         font-weight: 500;
-
-        background-color:#d42b6e
+        background-color: #d42b6e
     }
-    
+
     .podv3 {
         text-align: left;
         width: 100%;
-        
-        /* height: 234px;   */
-        height: 319px;  
-        border:1px solid rgb(143, 136, 141); 
-        color:rgb(255, 255, 255);
+        height: 319px;
+        border: 1px solid rgb(143, 136, 141);
+        color: rgb(255, 255, 255);
         font-size: 14px;
         letter-spacing: 1.5px;
         font-weight: 500;
-        background-color:#d42b6e
+        background-color: #d42b6e
     }
 
     .insta>img {
@@ -731,7 +415,7 @@ a {
         height: 82px;
         margin-top: 20px;
     }
-    
+
     .kontakti {
         margin-left: 18%;
     }
@@ -739,17 +423,13 @@ a {
     .kontakti2 {
         margin-left: 18%;
     }
-    
 }
-
-
 
 @media (max-width: 400px) {
     .block {
         margin: 0 auto;
         width: 350px;
-        height: 2854px;
-        /* background-color: #d6075d; */
+        height: 4000px;        
     }
 
     .logoimg {
@@ -762,87 +442,43 @@ a {
         height: 128px;
     }
 
-    .obolochka {
-        width: 350px;
-        height: 1708px;
-        box-shadow: 0px 0px 0px 0px rgb(255, 255, 255);
-    }
-
     .tovari {
         display: flex;
         flex-direction: column;
-
-        /* justify-content: center; */
-
-      /* justify-content: space-between; */
-      /* justify-content: center; */
-      /* justify-content: space-around; */
-      /* height: 100%; */
         width: 350px;
-        height: 969px;
-        /* background-color: #3c9203; */
-        /* margin-top: 15px; */
-        /* margin-left: 1px;
-        margin-right: 1px */
-    }
+        height: 1819px;        
 
-    .tovariVtor {
-        display: flex;
-        flex-direction: column;
-
-        margin-top: 0px;
-
-        /* justify-content: center; */
-
-      /* justify-content: space-between; */
-      /* justify-content: center; */
-      /* justify-content: space-around; */
-      /* height: 100%; */
-        width: 350px;
-        height: 780px;
-        /* background-color: #d9f010; */
-    }
-
-    .video {
-        width: 350px;
-        height: 327px;
-    }
-
-    .videoPro {
-        width: 350px;
-        height: 197px;
-    }
-
-    .opisanie {
-        width: 350px;
     }
 
     .tovar1 {
         width: 350px;
         height: 590px;
         background-color: #ffffff;
-        box-shadow: 0px 0px 0px 0px rgb(255, 255, 255);
-        /* box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1); */
+        box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1);
         border-radius: 11px;
-    
         padding-top: 21px;
-        
     }
-    
+
     .tovar2 {
         width: 350px;
         height: 590px;
         background-color: #ffffff;
-        box-shadow: 0px 0px 0px 0px rgb(255, 255, 255);
-        /* box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1); */
+        box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1);
         border-radius: 11px;
         padding-top: 21px;
     }
-    
-    
+
+    .tovar3 {
+        width: 350px;
+        height: 590px;
+        background-color: #ffffff;
+        box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 1);
+        border-radius: 11px;
+        padding-top: 21px;
+    }
 
     .knopki2 {
-        margin-left: 75px;
+        margin-left: 69px;
     }
 
     .povNastr {
@@ -851,54 +487,41 @@ a {
     }
 
     .podval {
-        /* display: flex;
-      flex-flow: row nowrap; */
-      display: block;
+        display: block;
         width: 100%;
         height: 319px;
-        /* height: 234px; */
-
-        /* background-color:#d42b6e */
-    
     }
 
     .podv1 {
         width: 100%;
-        /* height: 234px;     */
         height: 124px;
-        border:1px solid rgb(143, 136, 136);  
-        margin-top: 0px; 
-
-        background-color:#d42b6e
+        border: 1px solid rgb(143, 136, 136);
+        margin-top: 0px;
+        background-color: #d42b6e
     }
 
     .podv2 {
         text-align: left;
         width: 100%;
-        
-        /* height: 234px;  */
-        height: 402px;   
-        border:1px solid rgb(143, 136, 141); 
-        color:rgb(255, 255, 255);
+        height: 402px;
+        border: 1px solid rgb(143, 136, 141);
+        color: rgb(255, 255, 255);
         font-size: 14px;
         letter-spacing: 1.5px;
         font-weight: 500;
-
-        background-color:#d42b6e
+        background-color: #d42b6e
     }
-    
+
     .podv3 {
         text-align: left;
         width: 100%;
-        
-        /* height: 234px;   */
-        height: 319px;  
-        border:1px solid rgb(143, 136, 141); 
-        color:rgb(255, 255, 255);
+        height: 319px;
+        border: 1px solid rgb(143, 136, 141);
+        color: rgb(255, 255, 255);
         font-size: 14px;
         letter-spacing: 1.5px;
         font-weight: 500;
-        background-color:#d42b6e
+        background-color: #d42b6e
     }
 
     .insta>img {
@@ -921,29 +544,3 @@ a {
         margin-left: 12%;
     }
 }
-
-
-
-/* для блика =========  */
-.info .flare {
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 45px;
-    transform: skewX(-45deg);
-    animation: flareAnimation;
-    left: -150%;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
-    animation: flareAnimation 1.5s infinite linear;
-}
-
-@keyframes flareAnimation {
-    0% {
-        left: -150%;
-    }
-
-    100% {
-        left: 150%;
-    }
-}
-/* ================================= */
